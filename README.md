@@ -1,11 +1,11 @@
-# alignrsr_jd021
+# refusal_boundary_ratio_calc
 
 **算出对齐算法研究员·拒答边界与过度拒答里各项的占比与比值。**
 
-`alignrsr_jd021` —— 从输入中抽取数值，计算对齐算法研究员·拒答边界与过度拒答相关的比值与占比，分母为零时明确报错
+`refusal_boundary_ratio_calc` —— 从输入中抽取数值，计算对齐算法研究员·拒答边界与过度拒答相关的比值与占比，分母为零时明确报错
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`alignrsr_jd021.py` 拷走就能用
+- 单文件，`refusal_boundary_ratio_calc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install jonytechla-alignrsr_jd021
+pip install jonytechla-refusal_boundary_ratio_calc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-alignrsr_jd021 --help
+refusal_boundary_ratio_calc --help
 ```
 
-也可以不用安装，直接把 `alignrsr_jd021.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `refusal_boundary_ratio_calc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ alignrsr_jd021 --help
 ## 用法
 
 ```bash
-python alignrsr_jd021.py --file input.txt
-python alignrsr_jd021.py --text "示例内容"
-python alignrsr_jd021.py --file input.txt --json
+python refusal_boundary_ratio_calc.py --file input.txt
+python refusal_boundary_ratio_calc.py --text "示例内容"
+python refusal_boundary_ratio_calc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python alignrsr_jd021.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_alignrsr_jd021.py
+python test_refusal_boundary_ratio_calc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_alignrsr_jd021.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/jonytechla/alignrsr_jd021>
+- GitHub 仓库：<https://github.com/jonytechla/refusal_boundary_ratio_calc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_alignrsr_jd021.py
 jonytechla 做对齐算法研究员·拒答边界与过度拒答相关的问题，方向对标生数科技的初级对齐算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://jonytechla.github.io>
-- 仓库：<https://github.com/jonytechla/alignrsr_jd021>
+- 仓库：<https://github.com/jonytechla/refusal_boundary_ratio_calc>
 
 ## 许可
 
